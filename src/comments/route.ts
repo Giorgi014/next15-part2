@@ -1,11 +1,11 @@
 import { comments } from "./data";
 
 export async function GET() {
-  return await Response.json(comments);
+  return Response.json(comments);
 }
 
-export async function POST(requst: Request) {
-  const comment = await requst.json();
+export async function POST(request: Request) {
+  const comment = await request.json();
   const newComment = {
     id: comments.length + 1,
     text: comment.text,
