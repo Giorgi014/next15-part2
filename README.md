@@ -1,7 +1,7 @@
 # Next.js 15 / App Router Demo (Next 15 Part 2)
 
 This workspace contains two Next.js demo projects created while following the Codevolution video series:
-- Playlist: https://www.youtube.com/watch?v=O6VFEwHujW0&list=PLC3y8-rFHvwhIEc4I4YsRz5C7GOBnxSJY&index=54  
+- Playlist: https://www.youtube.com/watch?v=b4ba60j_4o8&list=PLC3y8-rFHvwhIEc4I4YsRz5C7GOBnxSJY&index=2  
 - Channel: https://www.youtube.com/@Codevolution
 
 Summary
