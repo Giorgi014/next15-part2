@@ -6,7 +6,7 @@ import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 // import { serverSideFunction } from "@/utils/server-utils";
 
-export default function ClientRoutePage() {
+export const ImageSlider = () => {
   // const result = serverSideFunction();
 
   const settings = {
