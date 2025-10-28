@@ -8,7 +8,12 @@ export type Product = {
   description: string | null;
 };
 
-export default async function ProductsDBPage() {
+export default async function ProductsDBPage({
+  searchParams,
+}: {
+  searchParams: Promise<{ query?: string }>;
+}) {
+  const { query } = await searchParams;
   const products: Product[] = await getProducts();
 
   return <ProductsDetail products={products} />;
